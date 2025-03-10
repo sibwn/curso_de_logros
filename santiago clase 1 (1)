@@ -1,0 +1,9 @@
+nombre = "santiago"
+edad = 17
+ciudad = "maracaibo"
+print (f"hola mi nombre es {nombre}, tengo {edad} años y vivo en {ciudad}")
+nota_1 = 17
+nota_2 = 19
+nota_3 = 17
+promedio = (nota_1 + nota_2 + nota_3) / 3 
+print (f"el promedio de {nota_1}, {nota_2} y {nota_3} es {promedio}")
