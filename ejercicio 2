@@ -1,0 +1,15 @@
+
+a = float(input("Ingresa el primer número: "))
+b = float(input("Ingresa el segundo número: "))
+c = float(input("Ingresa el tercer número: "))
+
+mayor = a
+mayor = (b > mayor) * b + (not (b > mayor)) * mayor
+mayor = (c > mayor) * c + (not (c > mayor)) * mayor
+
+menor = a
+menor = (b < menor) * b + (not (b < menor)) * menor
+menor = (c < menor) * c + (not (c < menor)) * menor
+
+print("El número mayor es:", mayor)
+print("El número menor es:", menor)
