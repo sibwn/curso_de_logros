@@ -1,0 +1,4 @@
+nombre = input("por favor, ingresa tu nombre:")
+edad = int(input("por favor, ingresa tu edad: "))
+ciudad = input("de que ciudad eres: ")
+print (f"hola, {nombre}. tienes {edad} años y eres de {ciudad}. ")
