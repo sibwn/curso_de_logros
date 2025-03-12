@@ -1,0 +1,4 @@
+participantes = ["José Villalobos", "José Gonzalez", "José Perozo", "Juan Hidalgo", "Genesis Paz", "Ana Raquel", "Ana Paula", "Alberto Mendez", "Hebert Rondon", "Alicia Marcano", "Gabriel Barrera", "Santiago Salas", "Adan Cubillan", "Angel Medina"]
+participantes.remove("Gabriel Barrera")
+participantes.append("Daniel Espitia")
+print(participantes)
