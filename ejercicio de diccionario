@@ -1,0 +1,2 @@
+mi_diccionario = {"nombre": "Santiago", "apellido": "Salas", "edad": 17, "pelicula": "Star wars episodio III"}
+print(mi_diccionario)
