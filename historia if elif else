@@ -1,0 +1,52 @@
+print("Eres un aventurero en un bosque misterioso.")
+print("Te encuentras en un cruce de caminos.")
+print("¿Quieres ir hacia la izquierda, hacia la derecha o seguir recto?")
+decision = input("Escribe 'izquierda', 'derecha' o 'recto': ")
+
+if decision == "izquierda":
+    print("Has elegido el camino de la izquierda.")
+    print("Después de caminar un rato, te encuentras con un río.")
+    print("¿Quieres intentar cruzarlo o buscar un puente?")
+    decision_rio = input("Escribe 'cruzar' o 'puente': ")
+    
+    if decision_rio == "cruzar":
+        print("Intentas cruzar el río, pero la corriente es demasiado fuerte.")
+        print("Te arrastra y terminas en la orilla opuesta, pero no puedes seguir adelante.")
+    elif decision_rio == "puente":
+        print("Encuentras un puente y lo cruzas con seguridad.")
+        print("Al otro lado, descubres una cueva llena de tesoros.")
+    else:
+        print("No has tomado una decisión válida y te quedas parado.")
+
+elif decision == "derecha":
+    print("Has elegido el camino de la derecha.")
+    print("Te encuentras con un viejo sabio.")
+    print("¿Quieres preguntarle sobre el tesoro o ignorarlo?")
+    decision_sabio = input("Escribe 'preguntar' o 'ignorar': ")
+    
+    if decision_sabio == "preguntar":
+        print("El sabio te cuenta sobre un tesoro escondido en las montañas.")
+        print("Decides seguir sus indicaciones y encuentras el tesoro.")
+    elif decision_sabio == "ignorar":
+        print("Decides seguir tu camino sin hacerle caso al sabio.")
+        print("Te pierdes en el bosque y no encuentras el camino de vuelta.")
+    else:
+        print("No has tomado una decisión válida y te quedas parado.")
+
+elif decision == "recto":
+    print("Has decidido seguir recto.")
+    print("Después de caminar un rato, te encuentras con un grupo de criaturas mágicas.")
+    print("¿Quieres unirte a ellas o seguir tu camino?")
+    decision_criaturas = input("Escribe 'unirte' o 'seguir': ")
+    
+    if decision_criaturas == "unirte":
+        print("Te unes a las criaturas mágicas y descubres un mundo lleno de maravillas.")
+        print("Vives aventuras increíbles junto a ellas.")
+    elif decision_criaturas == "seguir":
+        print("Decides seguir tu camino y te alejas de las criaturas.")
+        print("Sin embargo, sientes que te has perdido una gran oportunidad.")
+    else:
+        print("No has tomado una decisión válida y te quedas parado.")
+
+else:
+    print("No has tomado una decisión válida y te quedas parado.")
