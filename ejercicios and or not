@@ -1,0 +1,19 @@
+numero1 = float(input("Introduce el primer número: "))
+numero2 = float(input("Introduce el segundo número: "))
+
+ambos_positivos = numero1 > 0 and numero2 > 0
+print("¿Ambos números son positivos?", ambos_positivos)
+
+al_menos_uno_positivo = numero1 > 0 or numero2 > 0
+print("¿Al menos uno de los números es positivo?", al_menos_uno_positivo)
+
+primer_numero_no_negativo = not (numero1 < 0)
+print("¿El primer número no es negativo?", primer_numero_no_negativo)
+
+edad = int(input("Introduce tu edad: "))
+
+entre_18_y_65 = (edad >= 18 and edad <= 65)
+print("¿La persona tiene entre 18 y 65 años?", entre_18_y_65)
+
+no_menor_de_edad = not (edad < 18)
+print("¿La persona no es menor de edad?", no_menor_de_edad)
