@@ -1,0 +1,57 @@
+let edad2 = 40;
+
+if (edad2 < 18) {console.log("menor de edad");} else if (edad2 >= 18){console.log("adulto");} else {console.log("adulto mayor")
+let nombre = "daniel"; // string
+let edad = 24; // number
+let año = 2025; // number
+let cur = { curso: "programación módulo 2"}; // object
+console.log("su nombre es " + nombre + " tiene " + edad + " años y estudia" + cur )
+let edad2 = 40;
+
+if (edad < 30 ) {console.log("menor de edad");} else {console.log("mayor de edad");} 
+
+let dia = 4;
+let nombredia;
+
+switch (dia){case 1: nombredia = "lunes"; break; case 2: nombredia = "martes"; break; case 3: nombredia = "miercoles"; break; case 4: nombredia = "jueves"; break; case 5: nombredia = "viernes"; break; case 6: nombredia = "sabado"; break; case 7: nombredia = "domingo"; break; default: nombredia = "dia invalido";} console.log(nombredia);// jueves
+let apodo = prompt("dime tu apodo:") 
+
+let x = prompt("ingresar un numero ");
+if (x % 2 == 0 ) {console.log("el numero es par");} else {console.log("el numero es impar");}
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+  <h1>
+    PÁGINAS WEB
+  </h1>
+  <p>
+    Nombre: Santiago.
+    
+  <p>
+  Apellido: Salas.
+    
+  </p>
+    Clase: Módulo 2 clase 1.
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
+body {
+  margin: 60px;
+background-color: brown;
+color: green;
+padding: 80px
+  
+}
