@@ -1,0 +1,62 @@
+let año_nacimiento = prompt("ingresar año de nacimiento: ");
+let presente = 2025;
+let resultado = presente - año_nacimiento;
+console.log("su actual edad es " + resultado)
+
+// suma de numeros pares
+
+for (let i = 1; i <= 100; i++) { 
+    if (i % 2 == 0) { 
+        console.log(i); 
+        }
+    }
+
+var numero = prompt("Ingrese un número para ver su tabla de multiplicar:");
+
+for (var i = 1; i <= 10; i++) {
+    console.log(numero + " x " + i + " = " + (numero * i));
+}
+
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+  <h1>
+   Crear un formulario
+  </h1>
+  <p> <form>
+    <label> nombre y apellido </label> <br>
+    <input type = "text" <br> <br>
+    <label> telefono </label> <br>
+    <input type = "number" <br> <br>
+    <label> sexo </label> <br>
+    <input type = "radio" name = "sexo"> masculino <br> 
+    <input type = "radio" name = "sexo"> femenino <br> <br>
+    <label> fecha de nacimiento/dia </label> <br>
+    <input type = "date" <br> <br>
+    <input type = "time" <br> <br>
+    <label> color </label> <br>
+    <input type = "color" <br> <br>
+    <label> Gmail  </label> <br>
+    <input type = "gmail" <br> <br>
+    <label> contraseña </label> <br>
+    <input type = "password" <br> <br>
+     
+    <input type = "submit"
+    
+    
+  </p>
+  <script src="script.js"></script>
+</body>
+
+</html>
