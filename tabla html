@@ -1,0 +1,99 @@
+Tabla de estudiantes
+  </h1>
+  
+  <table>
+    <tr>
+      <th> Nombre </th>
+      <th> Apellido </th>
+      <th> Cedula </th>
+    </tr>
+    
+    <tr>
+      <th>Santiago</th>
+      <th>Salas</th>
+      <th>32468643</th>
+    </tr>
+    
+    <tr>
+      <th>Angel</th>
+      <th>Medina</th>
+      <th>33272763</th>
+    </tr>
+    
+    <tr>
+      <th>Genesis</th>
+      <th>Paz</th>
+      <th>30434804</th>
+    </tr>
+    
+     <tr>
+      <th>Jose</th>
+      <th>Perozo</th>
+      <th>30278737</th>
+    </tr>
+    
+     <tr>
+      <th>Juan</th>
+      <th>Hidalgo</th>
+      <th>30929224</th>
+    </tr>
+    
+     <tr>
+      <th>Raquel</th>
+      <th>Carruyo</th>
+      <th>31097114</th>
+    </tr>
+    
+     <tr>
+      <th>Paula</th>
+      <th>Carruyo</th>
+      <th>31097115</th>
+    </tr>
+    
+     <tr>
+      <th>Alberto</th>
+      <th>Mendez</th>
+      <th>31642913</th>
+    </tr>
+    
+     <tr>
+      <th>Alicia</th>
+      <th>Marcano</th>
+      <th>32090803</th>
+    </tr>
+    
+     <tr>
+      <th>Adan</th>
+      <th>Cubillan</th>
+      <th>32468656</th>
+    </tr>
+    
+     <tr>
+      <th>Gabriel</th>
+      <th>Barrera</th>
+      <th>32303156</th>
+    </tr>
+    
+     <tr>
+      <th>Jose</th>
+      <th>Villalobos</th>
+      <th>27192737</th>
+    </tr>
+    
+     <tr>
+      <th>Jose</th>
+      <th>Gonzalez</th>
+      <th>27909016</th>
+    </tr>
+    
+     <tr>
+      <th>Hebert</th>
+      <th>Rondon</th>
+      <th>32032955</th>
+    </tr>
+    
+  </table>
+  
+</body>
+
+</html>
