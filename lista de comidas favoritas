@@ -1,0 +1,19 @@
+</h1>
+  Lista ordenada
+ <ol>
+   <li> pizza </li>
+   <li> hamburguesa </li>
+   <li> lomo negro con arroz </li>
+  </ol>
+  
+  <h2>
+    Lista desordenada
+  </h2>
+  
+  <ul>
+    <li> pizza </li>
+    <li> hamburguesa</li>
+    <li> lomo negro con arroz </li>
+  </ul>
+  
+</body>
