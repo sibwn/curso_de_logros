@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de DOM</title>
+    <style>
+        #elemento {
+            padding: 10px;
+            border: 1px solid #000;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Cambiar contenido</h2>
+    <div id="elemento">Texto original</div>
+    <button onclick="cambiarContenido()">Cambiar Contenido</button>
+
+    <h2>Cambiar estilo</h2>
+    <div id="cambiarColor" style="width: 200px; height: 100px; background-color: lightgray;"></div>
+    <button onclick="cambiarEstilo()">Cambiar Color de Fondo</button>
+
+    <h2>Agregar elementos</h2>
+    <ul id="lista"></ul>
+    <input type="text" id="nuevoElemento" placeholder="Nuevo elemento">
+    <button onclick="agregarElemento()">Agregar Elemento</button>
+
+    <h2>Eliminar elementos</h2>
+    <input type="text" id="elementoAEliminar" placeholder="Elemento a eliminar">
+    <button onclick="eliminarElemento()">Eliminar Elemento</button>
+
+    <h2>Mostrar mensaje dinámico</h2>
+    <input type="text" id="campoTexto" placeholder="Escribe algo...">
+    <div id="mensaje"></div>
+
+    <script>
+        
+        function cambiarContenido() {
+            document.getElementById("elemento").innerText = "Texto cambiado";
+        }
+
+        
+        function cambiarEstilo() {
+            const elemento = document.getElementById("cambiarColor");
+            elemento.style.backgroundColor = elemento.style.backgroundColor === 'lightgray' ? 'lightblue' : 'lightgray';
+        }
+
+        
+        function agregarElemento() {
+            const lista = document.getElementById("lista");
+            const nuevoElemento = document.getElementById("nuevoElemento").value;
+
+            if (nuevoElemento) {
+                const li = document.createElement("li");
+                li.textContent = nuevoElemento;
+                lista.appendChild(li);
+                document.getElementById("nuevoElemento").value = ''; 
+            }
+        }
+
+       
+        function eliminarElemento() {
+            const elementoAEliminar = document.getElementById("elementoAEliminar").value;
+            const lista = document.getElementById("lista");
+            const items = lista.getElementsByTagName("li");
+
+            for (let i = 0; i < items.length; i++) {
+                if (items[i].textContent === elementoAEliminar) {
+                    lista.removeChild(items[i]);
+                    break; 
+                }
+            }
+            document.getElementById("elementoAEliminar").value = ''; 
+        }
+
+       
+        document.getElementById("campoTexto").addEventListener("input", function() {
+            document.getElementById("mensaje").innerText = this.value;
+        });
+    </script>
+
+</body>
+</html>
