@@ -1,0 +1,53 @@
+Console.WriteLine("This is the first line ");
+Console.WriteLine("This is the second line ");
+
+Console.WriteLine('C');
+
+Console.WriteLine(123);
+
+Console.WriteLine(0.25F);
+Console.WriteLine(2.625);
+Console.WriteLine(12.39816m);
+
+Console.WriteLine(true);
+Console.WriteLine(false);
+
+string llorenPeruanos;
+int gamerPe;
+bool viscaBarça;
+double señores;
+char sucio;
+float vivaLaVinotinto;
+decimal hungaro;
+
+string satayo;
+satayo = "sibwn";
+Console.Write(satayo);
+
+string seguro;
+seguro = "obvioPa";
+Console.WriteLine(seguro);
+
+string partesDelCuerpo;
+partesDelCuerpo = "pie";
+Console.WriteLine(partesDelCuerpo);
+partesDelCuerpo = "brazo";
+Console.WriteLine(partesDelCuerpo);
+partesDelCuerpo = "cuello";
+Console.WriteLine(partesDelCuerpo);
+partesDelCuerpo = "hombro";
+Console.WriteLine(partesDelCuerpo);
+
+string name;
+name = "Bob";
+int num;
+num = 3;
+float decimales;
+decimales = 34.4F;
+Console.Write("hello, ");
+Console.Write(name);
+ Console.Write(" You have ");
+ Console.Write(num);
+ Console.Write(" messages in your inbox The temprature is "); 
+ Console.Write(decimales);
+ Console.Write(" celsius.");
